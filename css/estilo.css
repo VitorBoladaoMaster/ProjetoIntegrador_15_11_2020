@@ -1,0 +1,485 @@
+body{
+    background-color: #FFFAE6;
+    overflow-x: hidden;
+}
+
+/* Index inicio */
+/* Header editado e dividido por grids*/
+.grid_paiMenu{
+    display: inline-grid;
+    position: absolute;
+    width:100%;
+    height:20%;
+    top: -15px;
+    left: 0px;
+    grid-template-columns: auto auto auto;
+    column-gap: -200px;
+    grid-row-gap: 0px;
+    align-content: center;
+}
+.grid_filhoMenu{
+    margin-top: 13px;
+    margin-right: auto;
+    margin-left: 170px;
+}
+
+.grid_filhoMenu a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.grid_filhoMenu a:hover{
+    color: rgb(24, 202, 202);
+}
+
+
+.grid_filhoMenu2{
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.grid_filhoMenu2 ul li{
+    display: inline;
+    align-content: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.grid_filhoMenu2 ul li a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+.grid_filhoMenu2 ul li a:hover{
+    color: rgb(24, 202, 202);
+}
+
+.grid_filhoMenu3{
+    margin-top: 13px;
+    margin-right: 60px;
+}
+
+/* Article - Deixando imagem preenchendo toda a largura da tela */
+.grid_paiPrincipal {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: auto;
+    margin-left: auto auto;
+    margin-right: auto;
+    margin-top: -60px;
+  }
+
+.grid_filhoPrincipal {
+    width: 1500px;
+    height: 688px;
+    background-image: url("../imagens/vinil.jpg");
+    /* Calcula a distância entre a largura da tela e da section e ajusta o tamanho da imagem */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+  }
+
+  
+.sentenca{
+    display: block;
+    margin: 300px auto 0px -130px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.7em;
+    color: #ffffff;
+    text-align: center;
+    
+  }
+.NomePrincipal{
+    display: block;
+    margin-left: -130px;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 4.5em;
+    color: #ffffff;
+ }
+
+ .line1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px; 
+}
+.line2{
+    display: block;
+    margin-left: 40%;
+    margin-right: 80%;
+    margin-top: 220px; 
+}
+  /* Citação ainda no article */
+.citacao{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.1em;
+    width: 600px;
+    margin: 100px auto 200px auto;
+    text-align: center;
+}
+.referencia{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 0.7em;
+    width: 450px;
+    margin-top: -190px;
+    margin-left: 700px;
+    text-align: left;
+}
+
+/* Index fim */
+
+/* Inicio: Alteração Menu para todas as páginas menos o Index */
+.grid_paiMenu_modify{
+    display: inline-grid;
+    position: absolute;
+    width:100%;
+    height:13%;
+    top: -15px;
+    left: 0px;
+    grid-template-columns: auto auto auto;
+    column-gap: -200px;
+    grid-row-gap: 0px;
+    align-content: center;
+    background-color: #000000;
+}
+.grid_filhoMenu_modify{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 170px;
+}
+
+.grid_filhoMenu_modify a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.grid_filhoMenu_modify a:hover{
+    color: rgb(24, 202, 202);
+}
+
+
+.grid_filhoMenu2_modify{
+    margin-top: 7px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+
+.grid_filhoMenu2_modify ul li{
+    display: inline;
+    align-content: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.grid_filhoMenu2_modify ul li a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+.grid_filhoMenu2_modify ul li a:hover{
+    color: rgb(24, 202, 202);
+}
+
+.grid_filhoMenu3_modify{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+/* Fim: Alteração Menu para todas as páginas menos o Index */
+
+
+/* Biografia Inicio */
+.principal_biografia{
+    display: grid;
+    width: 950px;
+    height: 100%;
+    margin-top: 100px;
+    float: right;
+}
+
+.Titulo_Maior{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+
+}
+
+.Titulo_Menor{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+
+}
+.texto_corrido{
+    font-family: 'Noto Serif JP', serif;
+    margin-top: -25px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.aside_biografia_principal{
+    margin-top: 120px;
+    width: 350px;
+    height: 100%;
+    border: 1px solid #a0a0a0;
+    float:left;
+}
+.header_aside{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    height: 75px;
+    background-color: #a0a0a0;
+}
+.nome_artista{
+    margin-top: 35px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+   
+}
+
+.titulo_aside{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    color: #000000;
+    text-align: center;
+}
+.subtitulo_aside{
+    margin-top:-20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    color: #000000;
+    text-align: center;
+}
+.título_referência{
+    margin-left: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 0.8em;
+    color: #000000;
+    text-align: left;  
+}
+.referencia_aside{
+    margin-left: 10px;
+    margin-top:-30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 0.6em;
+    color: #000000;
+    text-align: left;
+}
+.grupo_line{
+    clear: right;
+}
+.line_biografia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px; 
+
+}
+
+/* Biografia fim */
+
+/* obras_marcantes Inicio */
+
+/* obras_marcantes Fim */
+
+/* contato Inicio */
+.formulario_contato{
+    margin-top: 100px;
+}
+/* contato Fim */
+
+/* lista de obras */
+
+.Titulo_obras{
+    margin-top: 100px;
+    margin-left: 15px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+    text-align: left;  
+}
+.texto_obras{
+    font-family: 'Noto Serif JP', serif;
+    margin-top: -20px;
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+}
+.tabela_obras{
+    margin-top: 80px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efe;
+    border: 1px solid lightblue;
+}
+
+.tabela_obras th{
+    border: 1px solid lightblue;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.2em;
+    color: #000000;
+}
+.tabela_obras td{
+    border: 1px solid lightblue;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    color: #000000;
+}
+
+/* obras Inicio */
+.principal_article{
+    margin-top: 100px;
+    display: flex;
+}
+.Titulo_Contato1{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.7em;
+    color: #000000;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.texto_corrido_contato{
+    font-family: 'Noto Serif JP', serif;
+    margin-top: -25px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 240px;
+}
+.formulario_contato{
+    width: 100px;
+    margin-right: auto;
+    margin-left: 240px;
+    margin-top: 40px;
+}
+.titulo_contato{
+    display: flex;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+.caixa_texto{
+    width: 926px;
+    height: 20px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+/* obras Fim */
+
+
+
+/* Footer em comum para todas as páginas */
+.GridFooter{
+    clear: both;
+    display: inline-grid;
+    grid-template-columns: 50px 200px 300px;
+    column-gap: 500px;
+    grid-row-gap: 0px;
+    /* position: absolute; */
+    width: 100%;
+    margin-left: -10px;
+    margin-right: auto;
+    margin-top: 100px;
+    /* background-color: #E6E8FF; */
+}
+.GridFooterFliho{
+    margin-left: 100px;
+}
+.GridFooterFliho ul li{
+    display: inline;
+}
+.GridFooterFliho ul li a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: .8em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.GridFooterFliho ul li a:hover{
+    color: rgb(24, 202, 202);
+}
+.GridFooterFliho2{
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.GridFooterFliho2 a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    color: #000000;
+}
+.GridFooterFliho3{
+    width: 300px;
+    margin-left: -200px;
+    margin-top: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: auto;
+}
+.GridFooterFliho3 a{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.GridFooterFliho3 a:hover{
+    color: rgb(24, 202, 202);
+}
+.referencia_icon{
+    /* position: absolute; */
+    width: 700px;
+    top: 100%;
+    margin-left: 350px;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
